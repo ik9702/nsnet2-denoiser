@@ -111,8 +111,8 @@ class NSnet2Enhancer(object):
         # go back to time domain
         sigOut = featurelib.spec2sig(outSpec, self.cfg)
 
-        # convert to numpy
-        sigOut = sigOut.numpy()
+        # # convert to numpy
+        # sigOut = sigOut.numpy()
         
         return sigOut
 
